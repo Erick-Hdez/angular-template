@@ -37,7 +37,7 @@ export class InfoPageService {
     this.http.get<Equipo[]>('https://angular-portfolio-7418f-default-rtdb.firebaseio.com/equipo.json')
       .subscribe( (resp: any) => {
         this.equipo = resp;
-        console.log(this.equipo);
+        // console.log(this.equipo);
       })
   }
 
